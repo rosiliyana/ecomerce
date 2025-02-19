@@ -21,7 +21,7 @@ const Sidebar = ({ collapsed }) => {
                     <Link to="/dashboard/products">Products</Link>
                 </Menu.Item>
                 <Menu.Item key="3" icon={<LogoutOutlined />}>
-                    <Link to="/logout">Logout</Link>
+                    <Link to="/signin">Logout</Link>
                 </Menu.Item>
             </Menu>
         </Sider>
